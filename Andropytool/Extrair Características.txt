@@ -1,0 +1,2 @@
+Rodar codigo no terminal:
+docker run --rm -v C:/desktop/augusto/Downloads/APKs:/app/apks andropytool -s /app/apks -fw
