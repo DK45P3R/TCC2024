@@ -1,0 +1,2 @@
+Após instalar o Docker rodar a linha de código no terminal:
+docker run --rm -v C:/Users/vinik/Downloads/APKs:/app/apks andropytool -s /app/apks -vt 519cf1818f21bdb4d5c2d9d606a65e46dfa4a3ed7adc5af4d07e527f8e3056fb
