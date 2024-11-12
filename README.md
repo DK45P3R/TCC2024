@@ -30,20 +30,46 @@ A estrutura do repositório está organizada da seguinte forma:
 
 ```plaintext
 TCC2024/
-├── data/                    # Diretório para os conjuntos de dados
+├── Andropytool/
+│   ├── Extrair Características.txt
+│   ├── Filtro de features.py
+│   ├── Separador de features.py
+│   ├── Separação_B_M.py
+│   ├── Virus Total.txt
+│   ├── criar csv 1.py
+│   └── criar csv 2.py
+├── Androzoo/
+│   ├── Download.py
+│   └── linha de código no promp.txt
+├── Bases/
 │   ├── api_calls_2b.csv
 │   ├── api_calls_2m.csv
 │   ├── opcodes_2b.csv
 │   ├── opcodes_2m.csv
 │   ├── permissions_2b.csv
 │   └── permissions_2m.csv
-├── models/                  # Modelos treinados (.h5 e .sav)
-├── src/                     # Código-fonte
-│   ├── train_model.py       # Script para treinar os modelos
-│   ├── evaluate_model.py    # Script para avaliar os modelos
-│   └── utils.py             # Funções auxiliares
+├── Manipulando Json/
+│   └── a.py
+├── models/
+│   ├── api_model.h5
+│   ├── opcode_model.h5
+│   ├── permissions_model.h5
+│   ├── api_model.sav
+│   ├── opcode_model.sav
+│   └── permissions_model.sav
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing.ipynb
+│   └── 03_model_training.ipynb
+├── scripts/
+│   ├── KNN.py
+│   ├── MLP.py
+│   └── Random_Forest.py
+├── Equipe2_Adware
+├── Permissions_Adware.csv
 ├── README.md
-└── requirements.txt         # Dependências do projeto
+└── TCC.ipynb
+
 ```
 
 
